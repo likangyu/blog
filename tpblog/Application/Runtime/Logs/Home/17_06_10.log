@@ -1,0 +1,2431 @@
+[ 2017-06-10T15:23:07+08:00 ] 127.0.0.1 /tpblog/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0400s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.053003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.053003s ]
+
+[ 2017-06-10T15:23:10+08:00 ] 127.0.0.1 /tpblog/home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T15:23:27+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E8%B6%A3%E9%97%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '趣闻'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T15:23:29+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E4%BA%BA%E6%96%87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '人文'  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T15:23:29+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E7%BE%8E%E9%A3%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '美食'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T15:23:30+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T15:23:31+08:00 ] 127.0.0.1 /tpblog/index.php/Home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T15:23:35+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/read.html?pid=268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 268 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.1450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `wyan` = 268 LIMIT 1   [ RunTime:0.0490s ]
+SQL: SELECT * FROM `pinglun` WHERE `wyan` = 268  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T15:23:37+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T15:23:41+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/read.html?pid=264
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 264 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `wyan` = 264 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `wyan` = 264  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-10T15:23:57+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-06-10T15:24:01+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T15:24:03+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T15:24:05+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T18:48:12+08:00 ] 127.0.0.1 /tpblog/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.092005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:1.5201s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0750s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.1350s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0390s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.1250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.290074s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.291074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.148009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.148009s ]
+
+[ 2017-06-10T18:48:14+08:00 ] 127.0.0.1 /tpblog/home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T18:49:45+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 29 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 56 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T18:49:53+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html?do=chk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `admin` WHERE `auser` = '000' AND `apass` = '000' AND `yan` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-10T18:49:56+08:00 ] 127.0.0.1 /tpblog/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T18:49:57+08:00 ] 127.0.0.1 /tpblog/Home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T18:50:01+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0830s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0810s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-10T18:50:05+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/read.html?pid=268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 268 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0950s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `wyan` = 268 LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT * FROM `pinglun` WHERE `wyan` = 268  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T18:50:08+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T18:50:10+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/read.html?pid=267
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 267 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `wyan` = 267 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `wyan` = 267  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T18:50:11+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T18:50:13+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/read.html?pid=268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 268 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `wyan` = 268 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `wyan` = 268  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T18:50:29+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T18:50:30+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-06-10T18:50:31+08:00 ] 127.0.0.1 /tpblog/index.php/Home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-10T18:50:32+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/read.html?pid=266
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 266 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `wyan` = 266 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `pinglun` WHERE `wyan` = 266  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T18:50:34+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T18:54:31+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:15:01+08:00 ] 127.0.0.1 /tpblog/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0550s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026001s ]
+
+[ 2017-06-10T19:15:04+08:00 ] 127.0.0.1 /tpblog/home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:15:05+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 29 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 56 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:15:12+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html?do=chk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `auser` = '000' AND `apass` = '000' AND `yan` = 0 LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:15:15+08:00 ] 127.0.0.1 /tpblog/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:15:16+08:00 ] 127.0.0.1 /tpblog/Home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:15:18+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-10T19:15:20+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E7%BE%8E%E9%A3%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '美食'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:15:23+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E8%B6%A3%E9%97%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '趣闻'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:15:26+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E4%BA%BA%E6%96%87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '人文'  [ RunTime:0.0550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:15:30+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E7%BE%8E%E9%A3%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '美食'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:30:17+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E8%B6%A3%E9%97%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '趣闻'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:30:18+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E4%BA%BA%E6%96%87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '人文'  [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2017-06-10T19:30:19+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E7%BE%8E%E9%A3%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '美食'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:30:21+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E4%BA%BA%E6%96%87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '人文'  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2017-06-10T19:30:21+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E8%B6%A3%E9%97%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '趣闻'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-06-10T19:30:22+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E8%B6%A3%E9%97%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '趣闻'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:30:23+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E4%BA%BA%E6%96%87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '人文'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:30:25+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E7%BE%8E%E9%A3%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '美食'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 61 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:30:35+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-10T19:30:36+08:00 ] 127.0.0.1 /tpblog/index.php/Home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:30:45+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:30:56+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:31:01+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/grzladd.html?gid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `grzl` WHERE `gid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-06-10T19:31:03+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-10T19:31:05+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/grzladd.html?gid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `grzl` WHERE `gid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:31:08+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:31:11+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/grzladd.html?gid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `grzl` WHERE `gid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:31:13+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:31:15+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/grzladd.html?gid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `grzl` WHERE `gid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:31:16+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:31:18+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/grzladd.html?gid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `grzl` WHERE `gid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.071004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.071004s ]
+
+[ 2017-06-10T19:31:20+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:33:20+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:33:53+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:34:14+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:34:17+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-10T19:34:21+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T19:34:29+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/read.html?pid=268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 268 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `wyan` = 268 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `wyan` = 268  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:34:51+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/pl.html?pid=268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 268 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:36:46+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/pl.html?pid=268&id=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 268 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto F:\phpStudyLite\WWW\tpblog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `pinglun` (`piauthor`,`picontent`,`pyan`,`wyan`) VALUES ('美食达人(广州店)','这个海鲜套餐是我们店新推出的新品，希望各位可以给予评价。','40','268') [ RunTime:0.0660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:36:47+08:00 ] 127.0.0.1 /tpblog/Home/Index/read?pid=268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 268 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `wyan` = 268 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `wyan` = 268  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:39:13+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T19:39:19+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 40  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 79 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T19:39:56+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T19:39:59+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/read.html?pid=268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 268 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `wyan` = 268 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `wyan` = 268  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

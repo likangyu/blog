@@ -1,0 +1,665 @@
+[ 2017-10-29T18:36:56+08:00 ] 127.0.0.1 /tpblog/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0710s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = null LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.162010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.201011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.201011s ]
+
+[ 2017-10-29T18:37:03+08:00 ] 127.0.0.1 /tpblog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.048002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.048002s ]
+
+[ 2017-10-29T18:37:20+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 46 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 52 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-10-29T18:37:21+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-29T18:37:23+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/lbread.html?lx=%E8%B6%A3%E9%97%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `page` WHERE `lx` = '趣闻'  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in F:\phpStudyLite\WWW\tpblog\Application\Home\Controller\IndexController.class.php on line 268 and defined F:\phpStudyLite\WWW\tpblog\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where F:\phpStudyLite\WWW\tpblog\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where F:\phpStudyLite\WWW\tpblog\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where F:\phpStudyLite\WWW\tpblog\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `pinglun`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 22 行.
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 33 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 58 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 64 行.
+NOTIC: [8] Undefined variable: count F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 58 行.
+NOTIC: [8] Undefined variable: pls F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\78d9d1fc7a504e486fbc57dd084e5860.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-29T18:37:27+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2017-10-29T18:38:04+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 46 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 52 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-29T18:38:04+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-29T18:38:09+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html?do=chk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `admin` WHERE `auser` = '1' AND `apass` = '1' AND `yan` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-29T18:38:12+08:00 ] 127.0.0.1 /tpblog/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-29T18:38:15+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `pyan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 41  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `pyan` = 41  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-29T18:38:19+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/xc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-29T18:52:00+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-29T18:52:09+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/read.html?pid=297&llan=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `bwliulanliang` [ RunTime:0.1780s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 297 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `wyan` = 297 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pinglun` WHERE `wyan` = 297  [ RunTime:0.0010s ]
+SQL: INSERT INTO `bwliulanliang` (`llan`,`bpid`) VALUES ('1','297') [ RunTime:0.3130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-10-29T18:52:13+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/pl.html?pid=297
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 297 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-29T18:52:17+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-10-29T18:52:18+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0710s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `pyan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 41  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `pyan` = 41  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-29T18:52:20+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-29T18:52:38+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-29T18:53:05+08:00 ] 127.0.0.1 /tpblog/index.php/Home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-29T18:58:43+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `pyan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 41  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `pyan` = 41  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-10-29T18:58:48+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/xc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2017-10-29T18:58:51+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `pyan` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 41  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `pyan` = 41  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+

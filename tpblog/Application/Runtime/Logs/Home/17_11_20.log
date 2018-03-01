@@ -1,0 +1,2816 @@
+[ 2017-11-20T12:48:33+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.1070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0750s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0920s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0410s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = null LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0430s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022001s ]
+
+[ 2017-11-20T12:48:39+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T12:48:39+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-11-20T12:53:17+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:53:19+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:53:40+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4831397998082809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:54:19+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:54:20+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:54:21+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T12:54:56+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:54:56+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T12:55:01+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-11-20T12:55:01+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:01+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:02+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:02+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:02+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:02+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:03+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:03+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:03+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:04+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:04+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:05+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:06+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:06+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:07+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:07+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:08+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:08+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:08+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:08+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784?0.07958826775098382
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:09+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784?0.07958826775098382?0.5443386485741128
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:09+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784?0.07958826775098382?0.5443386485741128?0.15814271340183272
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:09+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784?0.07958826775098382?0.5443386485741128?0.15814271340183272?0.007203273198773674
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:09+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784?0.07958826775098382?0.5443386485741128?0.15814271340183272?0.007203273198773674?0.9868508744409743
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:09+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784?0.07958826775098382?0.5443386485741128?0.15814271340183272?0.007203273198773674?0.9868508744409743?0.1888416732083209
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:10+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784?0.07958826775098382?0.5443386485741128?0.15814271340183272?0.007203273198773674?0.9868508744409743?0.1888416732083209?0.3558121564726098
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:10+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784?0.07958826775098382?0.5443386485741128?0.15814271340183272?0.007203273198773674?0.9868508744409743?0.1888416732083209?0.3558121564726098?0.2711913549691638
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T12:55:10+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784?0.07958826775098382?0.5443386485741128?0.15814271340183272?0.007203273198773674?0.9868508744409743?0.1888416732083209?0.3558121564726098?0.2711913549691638?0.2520047619949053
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:10+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784?0.07958826775098382?0.5443386485741128?0.15814271340183272?0.007203273198773674?0.9868508744409743?0.1888416732083209?0.3558121564726098?0.2711913549691638?0.2520047619949053?0.01595592303207649
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:55:10+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784?0.07958826775098382?0.5443386485741128?0.15814271340183272?0.007203273198773674?0.9868508744409743?0.1888416732083209?0.3558121564726098?0.2711913549691638?0.2520047619949053?0.01595592303207649?0.6765341673948271
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:11+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784?0.07958826775098382?0.5443386485741128?0.15814271340183272?0.007203273198773674?0.9868508744409743?0.1888416732083209?0.3558121564726098?0.2711913549691638?0.2520047619949053?0.01595592303207649?0.6765341673948271?0.7777765857541183
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:11+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7051928871165278?0.6641965074375515?0.8744215284459447?0.8580427896688319?0.6235783834770141?0.46581450421257187?0.125815483611059?0.006394909795574444?0.20695562879513663?0.7081122986336001?0.3424130183966845?0.162157239981364?0.6989930117647687?0.3717382261714388?0.8126223220932256?0.3196831794694617?0.3225733967657656?0.01539528387900524?0.11596733984393204?0.9457437845612784?0.07958826775098382?0.5443386485741128?0.15814271340183272?0.007203273198773674?0.9868508744409743?0.1888416732083209?0.3558121564726098?0.2711913549691638?0.2520047619949053?0.01595592303207649?0.6765341673948271?0.7777765857541183?0.009478572768479632
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:43+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:43+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T12:55:44+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:55:45+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:45+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:45+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:46+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:46+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:46+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:46+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:46+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:47+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:47+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:47+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:55:47+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:47+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:48+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:48+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:48+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:48+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:48+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:49+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:49+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:49+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:49+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:50+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:50+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:51+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:51+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:51+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:52+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:52+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:52+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:52+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:52+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:53+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-11-20T12:55:53+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:53+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:53+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:55:53+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:54+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:54+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:55:54+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:54+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-11-20T12:55:54+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:55+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:55+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:55+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:55+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:55+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:56+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:56+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:56+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968?0.7436261799335002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:56+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968?0.7436261799335002?0.8500617426892678
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:56+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968?0.7436261799335002?0.8500617426892678?0.03216468548379403
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:56+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968?0.7436261799335002?0.8500617426892678?0.03216468548379403?0.08983041490311217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:57+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968?0.7436261799335002?0.8500617426892678?0.03216468548379403?0.08983041490311217?0.7358161678804482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:57+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968?0.7436261799335002?0.8500617426892678?0.03216468548379403?0.08983041490311217?0.7358161678804482?0.7854383769313451
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:57+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968?0.7436261799335002?0.8500617426892678?0.03216468548379403?0.08983041490311217?0.7358161678804482?0.7854383769313451?0.49798572733874735
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:57+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968?0.7436261799335002?0.8500617426892678?0.03216468548379403?0.08983041490311217?0.7358161678804482?0.7854383769313451?0.49798572733874735?0.5798279220331826
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:57+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968?0.7436261799335002?0.8500617426892678?0.03216468548379403?0.08983041490311217?0.7358161678804482?0.7854383769313451?0.49798572733874735?0.5798279220331826?0.797529121372232
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:58+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968?0.7436261799335002?0.8500617426892678?0.03216468548379403?0.08983041490311217?0.7358161678804482?0.7854383769313451?0.49798572733874735?0.5798279220331826?0.797529121372232?0.5135060768849595
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:58+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968?0.7436261799335002?0.8500617426892678?0.03216468548379403?0.08983041490311217?0.7358161678804482?0.7854383769313451?0.49798572733874735?0.5798279220331826?0.797529121372232?0.5135060768849595?0.8089102402944817
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:55:58+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968?0.7436261799335002?0.8500617426892678?0.03216468548379403?0.08983041490311217?0.7358161678804482?0.7854383769313451?0.49798572733874735?0.5798279220331826?0.797529121372232?0.5135060768849595?0.8089102402944817?0.25865740800998815
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-11-20T12:55:58+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.18624774277833755?0.07613874193830372?0.8027035434364824?0.07326832863777732?0.30813694369989975?0.9111134660248279?0.6077350421199217?0.2673723313771996?0.8092811449926942?0.6828324904133611?0.6380178620139303?0.39566308936482075?0.015899269613145917?0.5737783966831667?0.9589998227474616?0.04820247197839245?0.8424212031250529?0.8393856234024644?0.022231209709714816?0.11443375832884817?0.7630727979921734?0.7800542567790789?0.933162100013637?0.6693932373253484?0.33723459179045445?0.058807662204442?0.0988800990982388?0.06855750441166975?0.20420369328118415?0.0806862040240206?0.3174034010555251?0.08207352519229394?0.23564342635604518?0.21820425195333448?0.7676293608825475?0.5203121990741975?0.8450829957781612?0.25323557219821025?0.9322554419348386?0.6727275859364226?0.22075755132373986?0.8852136413278171?0.09570939105205367?0.06324307331115842?0.16128405313542027?0.7161939594638072?0.35664316218235736?0.8205172205138078?0.5270644529763995?0.6948498487949968?0.7436261799335002?0.8500617426892678?0.03216468548379403?0.08983041490311217?0.7358161678804482?0.7854383769313451?0.49798572733874735?0.5798279220331826?0.797529121372232?0.5135060768849595?0.8089102402944817?0.25865740800998815?0.9662498144116665
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:56:03+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html?do=chk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:56:06+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:56:07+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:56:13+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.7911446624891858
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T12:56:18+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html?do=chk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` WHERE `auser` = '1' AND `apass` = '1' AND `yan` = 0 LIMIT 1   [ RunTime:0.0632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:56:22+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-11-20T12:56:24+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `pyan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 41  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `pyan` = 41  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:56:27+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/xc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `xc` [ RunTime:0.1072s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xc` WHERE `xyan` = 41 LIMIT 1   [ RunTime:0.0176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:56:30+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `pyan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 41  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `pyan` = 41  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:57:25+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T12:57:28+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T12:57:28+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-11-20T12:57:35+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6249826533310798
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:57:36+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6249826533310798?0.47135218900975406
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:57:36+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6249826533310798?0.47135218900975406?0.775841005917141
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:57:37+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6249826533310798?0.47135218900975406?0.775841005917141?0.1656985698476039
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:57:37+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6249826533310798?0.47135218900975406?0.775841005917141?0.1656985698476039?0.22770942426969087
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:57:38+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6249826533310798?0.47135218900975406?0.775841005917141?0.1656985698476039?0.22770942426969087?0.2841035382213404
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:57:38+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6249826533310798?0.47135218900975406?0.775841005917141?0.1656985698476039?0.22770942426969087?0.2841035382213404?0.9716682317517453
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:57:41+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html?do=chk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:57:44+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:57:44+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T12:57:48+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.9324893497305913
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T12:57:56+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html?do=chk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T12:57:59+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:57:59+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:58:03+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4229191942117072
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:58:04+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4229191942117072?0.7396137092230137
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:58:05+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4229191942117072?0.7396137092230137?0.36057090171925577
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T12:58:11+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html?do=chk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` WHERE `auser` = '1' AND `apass` = '1' AND `yan` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T12:58:14+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T12:58:19+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `pyan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 41  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `pyan` = 41  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-11-20T16:01:24+08:00 ] 127.0.0.1 /tpblog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T16:02:10+08:00 ] 127.0.0.1 /tpblog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-11-20T16:33:32+08:00 ] 127.0.0.1 /tpblog/index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T16:33:32+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:33:36+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:33:36+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:33:36+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:33:37+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727?0.2743180845760227
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-11-20T16:33:37+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727?0.2743180845760227?0.9912956037821474
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:33:37+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727?0.2743180845760227?0.9912956037821474?0.8342242120919039
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:33:37+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727?0.2743180845760227?0.9912956037821474?0.8342242120919039?0.889569055533979
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:33:37+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727?0.2743180845760227?0.9912956037821474?0.8342242120919039?0.889569055533979?0.7188451672979186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:33:37+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727?0.2743180845760227?0.9912956037821474?0.8342242120919039?0.889569055533979?0.7188451672979186?0.8924202220566653
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:33:38+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727?0.2743180845760227?0.9912956037821474?0.8342242120919039?0.889569055533979?0.7188451672979186?0.8924202220566653?0.3273587090502197
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-11-20T16:33:38+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727?0.2743180845760227?0.9912956037821474?0.8342242120919039?0.889569055533979?0.7188451672979186?0.8924202220566653?0.3273587090502197?0.37834358741295593
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-11-20T16:33:38+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727?0.2743180845760227?0.9912956037821474?0.8342242120919039?0.889569055533979?0.7188451672979186?0.8924202220566653?0.3273587090502197?0.37834358741295593?0.2313213117299242
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:33:38+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727?0.2743180845760227?0.9912956037821474?0.8342242120919039?0.889569055533979?0.7188451672979186?0.8924202220566653?0.3273587090502197?0.37834358741295593?0.2313213117299242?0.351376116296634
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-11-20T16:33:39+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727?0.2743180845760227?0.9912956037821474?0.8342242120919039?0.889569055533979?0.7188451672979186?0.8924202220566653?0.3273587090502197?0.37834358741295593?0.2313213117299242?0.351376116296634?0.27520193660718806
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:33:41+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727?0.2743180845760227?0.9912956037821474?0.8342242120919039?0.889569055533979?0.7188451672979186?0.8924202220566653?0.3273587090502197?0.37834358741295593?0.2313213117299242?0.351376116296634?0.27520193660718806?0.4024655335493139
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:34:35+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.4815071509168094?0.3537143615934353?0.5087099796789727?0.2743180845760227?0.9912956037821474?0.8342242120919039?0.889569055533979?0.7188451672979186?0.8924202220566653?0.3273587090502197?0.37834358741295593?0.2313213117299242?0.351376116296634?0.27520193660718806?0.4024655335493139?0.6581745765854696
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T16:34:41+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html?do=chk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T16:34:45+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T16:34:45+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-11-20T16:34:49+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.23928631898585628
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-20T16:34:55+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html?do=chk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE `auser` = '1' AND `apass` = '1' AND `yan` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T16:34:58+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:35:01+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pinglun` WHERE `pyan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 41  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` WHERE `pyan` = 41  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-11-20T16:35:07+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T16:35:09+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pinglun` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `haoshu` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '趣闻' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '人文' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` WHERE `lx` = '美食' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pinglun` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoshu`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:35:12+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-11-20T16:35:12+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-11-20T16:35:13+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6611699289889799
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-11-20T16:35:14+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6611699289889799?0.32861945681334936
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:35:16+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6611699289889799?0.32861945681334936?0.2741792655656137
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-20T16:35:16+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6611699289889799?0.32861945681334936?0.2741792655656137?0.7468002775696081
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:35:17+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6611699289889799?0.32861945681334936?0.2741792655656137?0.7468002775696081?0.7391625967109228
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:35:18+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6611699289889799?0.32861945681334936?0.2741792655656137?0.7468002775696081?0.7391625967109228?0.19213083024445332
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:35:18+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6611699289889799?0.32861945681334936?0.2741792655656137?0.7468002775696081?0.7391625967109228?0.19213083024445332?0.37707627873093585
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:35:24+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6611699289889799?0.32861945681334936?0.2741792655656137?0.7468002775696081?0.7391625967109228?0.19213083024445332?0.37707627873093585?0.39285407393609173
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-20T16:35:25+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/verify.html?0.6611699289889799?0.32861945681334936?0.2741792655656137?0.7468002775696081?0.7391625967109228?0.19213083024445332?0.37707627873093585?0.39285407393609173?0.9048105588487589
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

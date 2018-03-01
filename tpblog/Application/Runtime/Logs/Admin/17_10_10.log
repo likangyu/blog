@@ -1,0 +1,350 @@
+[ 2017-10-10T16:36:17+08:00 ] 127.0.0.1 /tpblog/admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-10T16:36:24+08:00 ] 127.0.0.1 /tpblog/index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-10T16:36:30+08:00 ] 127.0.0.1 /tpblog/index.php/Admin/Blog/add.html?pid=299
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 299 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-10T16:36:40+08:00 ] 127.0.0.1 /tpblog/index.php/Admin/Blog/save.html?pid=299
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: auto F:\phpStudyLite\WWW\tpblog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `page` SET `title`='川菜',`author`='四川',`content`='&lt;p&gt;&lt;img alt=&quot;Image&quot; src=&quot;http://zfs1.fiiimg.com/zfs1/fw/12/266/00072720120922120739_960x720.jpg&quot; width=&quot;600&quot; height=&quot;450&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;水煮鱼&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;img alt=&quot;Image&quot; src=&quot;http://i4.cqnews.net/life/attachement/jpg/site82/20160124/fc3fdb46e7e0180eceba2e.jpg&quot; width=&quot;500&quot; height=&quot;288&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;img alt=&quot;Image&quot; src=&quot;http://imgsrc.baidu.com/imgad/pic/item/0df3d7ca7bcb0a4638edd1306163f6246a60afe8.jpg&quot; width=&quot;600&quot; height=&quot;400.1953125&quot;&gt;&lt;br&gt;&lt;/p&gt;',`uptime`='1507624600' WHERE `pid` = 299 [ RunTime:0.0880s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-10T16:36:42+08:00 ] 127.0.0.1 /tpblog/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-10T16:37:08+08:00 ] 127.0.0.1 /tpblog/index.php/Admin/Blog/add.html?pid=299
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 299 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-10T16:37:49+08:00 ] 127.0.0.1 /tpblog/admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-10T16:37:52+08:00 ] 127.0.0.1 /tpblog/index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-10T16:37:54+08:00 ] 127.0.0.1 /tpblog/index.php/Admin/Blog/add.html?pid=298
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 298 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-10-10T16:38:06+08:00 ] 127.0.0.1 /tpblog/index.php/Admin/Blog/save.html?pid=298
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: auto F:\phpStudyLite\WWW\tpblog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `page` SET `title`='浙江菜系',`author`='杭州',`content`='&lt;p&gt;&lt;img alt=&quot;Image&quot; src=&quot;http://s9.rr.itc.cn/r/wapChange/20173_17_14/a1ahjw0067812073619.jpg&quot; width=&quot;600&quot; height=&quot;395&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;红烧肉&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;img alt=&quot;Image&quot; src=&quot;http://gfy.heyichifeng.com/Storage/master/gallery/201505/20150511154042_0390.png&quot; width=&quot;450&quot; height=&quot;328&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;油焖笋&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;img alt=&quot;Image&quot; src=&quot;http://img0.imgtn.bdimg.com/it/u=2824863603,111452193&amp;amp;fm=200&amp;amp;gp=0.jpg&quot; width=&quot;500&quot; height=&quot;335&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;片儿川&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;浙江，东濒大海&amp;nbsp;，有千里长的海岸线，盛产海味，如著名的&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E8%88%9F%E5%B1%B1%E6%B8%94%E5%9C%BA&quot;&gt;舟山渔场&lt;/a&gt;的&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%BB%84%E9%B1%BC&quot;&gt;黄鱼&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%B8%A6%E9%B1%BC&quot;&gt;带鱼&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E7%9F%B3%E6%96%91%E9%B1%BC&quot;&gt;石斑鱼&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%94%A6%E7%BB%A3%E9%BE%99%E8%99%BE&quot;&gt;锦绣龙虾&lt;/a&gt;及蛎、蛤、虾、蟹，平原，河道港叉遍布，著名的&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%A4%AA%E6%B9%96/112298&quot;&gt;太湖&lt;/a&gt;南临&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%B9%96%E5%B7%9E/209713&quot;&gt;湖州&lt;/a&gt;，淡水鱼名贵品种，如&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%B3%9C%E9%B1%BC&quot;&gt;鳜鱼&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%B2%AB%E9%B1%BC&quot;&gt;鲫鱼&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%9D%92%E8%99%BE&quot;&gt;青虾&lt;/a&gt;、湖蟹等以及&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%9B%9B%E5%A4%A7%E5%AE%B6%E9%B1%BC&quot;&gt;四大家鱼&lt;/a&gt;产量极盛。又是大米与蚕桑的主要产地，素有“&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%B1%BC%E7%B1%B3%E4%B9%8B%E4%B9%A1&quot;&gt;鱼米之乡&lt;/a&gt;”的称号。西南为丛山峻岭，&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%B1%B1%E7%8F%8D&quot;&gt;山珍&lt;/a&gt;野味历来有名，像&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%BA%86%E5%85%83&quot;&gt;庆元&lt;/a&gt;的香菇、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%99%AF%E5%AE%81&quot;&gt;景宁&lt;/a&gt;的黑木耳。中部为浙江盆地——金衢盆地，即&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%87%91%E5%8D%8E&quot;&gt;金华&lt;/a&gt;大粮仓，闻名中外的&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%87%91%E5%8D%8E%E7%81%AB%E8%85%BF&quot;&gt;金华火腿&lt;/a&gt;就是选用全国瘦肉型名猪之一的“&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%87%91%E5%8D%8E%E4%B8%A4%E5%A4%B4%E4%B9%8C&quot;&gt;金华两头乌&lt;/a&gt;”制成的。加上举世闻名的杭州&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%BE%99%E4%BA%95%E8%8C%B6%E5%8F%B6&quot;&gt;龙井茶叶&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4%E8%80%81%E9%85%92&quot;&gt;绍兴老酒&lt;/a&gt;，都是烹饪中不可缺少的上乘原料。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;浙菜富有江南特色，历史悠久，源远流长，是中国著名的地方菜种。浙菜起源于&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%96%B0%E7%9F%B3%E5%99%A8%E6%97%B6%E4%BB%A3/21432&quot;&gt;新石器时代&lt;/a&gt;的&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%B2%B3%E5%A7%86%E6%B8%A1%E6%96%87%E5%8C%96&quot;&gt;河姆渡文化&lt;/a&gt;，经越国先民的开拓积累，汉唐时期的成熟定型，宋元时期的繁荣和明清时期的发展，浙江菜的基本风格已经形成。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;浙江菜的形成有其历史的原因，同时也受资源特产的影响。浙江濒临东海，气候温和，水陆交通方便，其境内北半部地处我国“东南富庶”的&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%95%BF%E6%B1%9F%E4%B8%89%E8%A7%92%E6%B4%B2%E5%B9%B3%E5%8E%9F&quot;&gt;长江三角洲平原&lt;/a&gt;，土地肥沃，河汉密布，盛产稻、麦、粟、豆、果蔬，水产资源十分丰富，四季时鲜源源上市；西南部丘陵起伏，盛产山珍野味，农舍鸡鸭成群，牛羊肥壮，无不为烹饪提供了殷实富足的原料。特产有：&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%AF%8C%E6%98%A5%E6%B1%9F%E9%B2%A5%E9%B1%BC&quot;&gt;富春江鲥鱼&lt;/a&gt;，舟山黄鱼，&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%87%91%E5%8D%8E%E7%81%AB%E8%85%BF&quot;&gt;金华火腿&lt;/a&gt;，杭州油乡&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E8%B1%86%E8%85%90%E7%9A%AE&quot;&gt;豆腐皮&lt;/a&gt;，&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E8%A5%BF%E6%B9%96%E8%8E%BC%E8%8F%9C&quot;&gt;西湖莼菜&lt;/a&gt;，&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4%E9%BA%BB%E9%B8%AD&quot;&gt;绍兴麻鸭&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E8%B6%8A%E9%B8%A1&quot;&gt;越鸡&lt;/a&gt;和酒，&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E8%A5%BF%E6%B9%96%E9%BE%99%E4%BA%95%E8%8C%B6&quot;&gt;西湖龙井茶&lt;/a&gt;，舟山的&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%A2%AD%E5%AD%90%E8%9F%B9&quot;&gt;梭子蟹&lt;/a&gt;，安吉竹鸡，&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%BB%84%E5%B2%A9%E8%9C%9C%E6%A1%94&quot;&gt;黄岩蜜桔&lt;/a&gt;等。丰富的烹饪资源、众多的名优特产，与卓越的烹饪技艺相结合，使浙江菜出类拔萃地独成体系。&lt;/b&gt;&lt;/p&gt;',`uptime`='1507624686' WHERE `pid` = 298 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-10T16:38:07+08:00 ] 127.0.0.1 /tpblog/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-10T16:38:10+08:00 ] 127.0.0.1 /tpblog/index.php/Admin/Blog/add.html?pid=297
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 297 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-10T16:38:16+08:00 ] 127.0.0.1 /tpblog/index.php/Admin/Blog/save.html?pid=297
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: auto F:\phpStudyLite\WWW\tpblog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `page` SET `title`='苏州美食',`author`='苏州',`content`='&lt;p&gt;&lt;img alt=&quot;Image&quot; src=&quot;http://image1.rayliimg.cn/0009/2012-08-13/images/2012081314368859.jpg&quot; width=&quot;400&quot; height=&quot;300&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;img alt=&quot;Image&quot; src=&quot;http://www.6681.com/uploads/allimg/161221/51-161221144203-50.jpg&quot; width=&quot;500&quot; height=&quot;349&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;苏菜擅长炖、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E7%84%96&quot;&gt;焖&lt;/a&gt;、蒸、炒，重视调汤，保持菜的原汁，&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%A3%8E%E5%91%B3&quot;&gt;风味&lt;/a&gt;清鲜，浓而不腻，淡而不薄，酥松脱骨而不失其形，滑嫩爽脆而不失其味。&lt;a&gt;&amp;nbsp;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;南京菜口味和醇，玲珑细巧；扬州菜清淡适口，刀工精细；苏州菜口味趋甜，清雅多姿。其名菜有&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E7%83%A4%E6%96%B9&quot;&gt;烤方&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%B0%B4%E6%99%B6%E8%82%B4%E8%B9%84&quot;&gt;水晶肴蹄&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%B8%85%E7%82%96%E8%9F%B9%E7%B2%89%E7%8B%AE%E5%AD%90%E5%A4%B4&quot;&gt;清炖蟹粉狮子头&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%87%91%E9%99%B5%E4%B8%B8%E5%AD%90&quot;&gt;金陵丸子&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%BB%84%E6%B3%A5%E7%85%A8%E9%B8%A1&quot;&gt;黄泥煨鸡&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%B8%85%E7%82%96%E9%B8%A1%E5%AD%9A&quot;&gt;清炖鸡孚&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E7%9B%90%E6%B0%B4%E9%B8%AD&quot;&gt;盐水鸭&lt;/a&gt;（金陵板鸭）、金香饼、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%B8%A1%E6%B1%A4%E7%85%AE%E5%B9%B2%E4%B8%9D&quot;&gt;鸡汤煮干丝&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E8%82%89%E9%85%BF%E7%94%9F%E9%BA%B8&quot;&gt;肉酿生麸&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%87%A4%E5%B0%BE%E8%99%BE&quot;&gt;凤尾虾&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E4%B8%89%E5%A5%97%E9%B8%AD&quot;&gt;三套鸭&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%97%A0%E9%94%A1%E8%82%89%E9%AA%A8%E5%A4%B4&quot;&gt;无锡肉骨头&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%99%86%E7%A8%BF%E8%8D%90&quot;&gt;陆稿荐&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%85%B1%E7%8C%AA%E5%A4%B4%E8%82%89&quot;&gt;酱猪头肉&lt;/a&gt;等。&lt;/b&gt;&lt;/p&gt;',`uptime`='1507624696' WHERE `pid` = 297 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-10T16:38:17+08:00 ] 127.0.0.1 /tpblog/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

@@ -1,0 +1,790 @@
+[ 2017-05-15T19:17:34+08:00 ] 127.0.0.1 /tpblog/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.1040s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-05-15T19:17:41+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 29 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 56 行.
+NOTIC: [8] Undefined variable: user F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\8f446e26685191b31f521b504c9e1b46.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T19:17:47+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/login.html?do=chk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `auser` = '80' AND `apass` = '80' AND `yan` = 0 LIMIT 1   [ RunTime:0.0130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T19:17:50+08:00 ] 127.0.0.1 /tpblog/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T19:17:53+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.1090s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 74 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-15T19:19:16+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-15T19:19:19+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 74 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T19:21:57+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/grzladd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `grzl` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 28 行.
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-15T19:22:01+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/grzladd.html?id=34&gid=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `grzl` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto F:\phpStudyLite\WWW\tpblog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `grzl` SET `nc`='aaa',`zy`='学生',`zz`='广东省广州市',`qq`='2147483647',`yx`='690321222@qq.com',`bz`='&lt;p&gt;a&lt;/p&gt;',`yan`='34' WHERE `gid` = 8 [ RunTime:0.1130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T19:22:02+08:00 ] 127.0.0.1 /tpblog/Home/Auser/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 74 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T19:22:04+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/grzladd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `grzl` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 28 行.
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T19:22:10+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/grzladd.html?id=34&gid=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `grzl` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto F:\phpStudyLite\WWW\tpblog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `grzl` SET `nc`='a',`zy`='学生',`zz`='广东省广州市',`qq`='2147483647',`yx`='690321222@qq.com',`bz`='&lt;p&gt;a&lt;/p&gt;',`yan`='34' WHERE `gid` = 8 [ RunTime:0.0580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T19:22:12+08:00 ] 127.0.0.1 /tpblog/Home/Auser/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 74 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T19:22:59+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/add.html?pid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\b223ca85e799e1c3044872b59cecb101.php 第 91 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\b223ca85e799e1c3044872b59cecb101.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T19:23:03+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-15T19:23:07+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 74 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T19:23:10+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/grzladd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `grzl` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 28 行.
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-15T19:25:09+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/grzladd.html?id=34&gid=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `grzl` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto F:\phpStudyLite\WWW\tpblog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `grzl` SET `nc`='a',`zy`='学生',`zz`='广东省广州市',`qq`='2147483647',`yx`='690321222@qq.com',`bz`='&lt;p&gt;a&lt;/p&gt;',`yan`='34' WHERE `gid` = 8 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T19:25:10+08:00 ] 127.0.0.1 /tpblog/Home/Auser/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 74 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T20:58:01+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/grzladd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `grzl` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 28 行.
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T20:58:04+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-15T20:58:07+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 74 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-15T20:58:09+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/grzladd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `grzl` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 28 行.
+NOTIC: [8] Undefined variable: blog F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\a1aa3669587cef90c728a4bded7c7468.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-15T20:58:38+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` ORDER BY aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+NOTIC: [8] Undefined index: auser F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-15T21:04:50+08:00 ] 127.0.0.1 /tpblog/index.php/Home/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grzl` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `grzl` WHERE `yan` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 74 行.
+NOTIC: [8] Undefined variable: pl F:\phpStudyLite\WWW\tpblog\Application\Runtime\Cache\Home\c345bc8531011409fce2b08c10c18525.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.r {
+	font-size:10px;
+	color:#fff;
+	border: 1px solid #fff;
+	border-radius:3px;
+	padding:1px 10px;
+	text-decoration:none;
+	float: left;
+}
+
+.rr {
+	font-size:16px;
+	color:#fff;
+	border: 1px solid #fff;
+	border-radius:3px;
+	padding:1px 10px;
+	text-decoration:none;
+	float: right;
+}
+
+.jumbotro {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background: url(http://localhost/sucai/bjt.jpg);
+}

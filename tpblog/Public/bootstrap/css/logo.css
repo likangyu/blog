@@ -1,0 +1,208 @@
+    .v {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-left: -30vw;
+    }
+
+    .pn {
+      font-family: 'Monoton', cursive;
+      width: 9vw;
+      cursor: pointer;
+      text-shadow: .3vw .3vw 0 black;
+    }
+
+    .letter-b {
+      color: rgb(222, 233, 187);
+      font-size: 9vw;
+      z-index: 1;
+    }
+
+    .letter-l {
+      color: rgb(222, 233, 187);
+      font-size: 13vw;
+      z-index: 2;
+    }
+
+    .letter-u {
+      color: rgb(222, 233, 187);
+      font-size: 8vw;
+      z-index: 3;
+    }
+
+    .letter-r {
+      color: rgb(222, 233, 187);
+      font-size: 6vw;
+      margin-left: -3vw;
+      z-index: 4;
+    }
+
+    .letter-hover:hover {
+      color: rgb(0,191,255);
+      text-shadow: .5vw .5vw 0 black;
+    }
+
+    .letter-b {
+      animation: B 8s linear infinite;
+      -moz-animation: B 8s linear infinite;
+      /* Firefox */
+      -webkit-animation: B 8s linear infinite;
+      /* Safari and Chrome */
+      -o-animation: B 8s linear infinite;
+      /* Opera */
+    }
+
+    @keyframes B {
+      0% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+      }
+      16.6666666667% {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+      }
+      33.3333333334% {
+        -webkit-filter: blur(8px);
+        filter: blur(8px);
+      }
+      50% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+      }
+      66.6666666668% {
+        -webkit-filter: blur(8px);
+        filter: blur(8px);
+      }
+      83.3333333335% {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+      }
+      100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+      }
+    }
+
+    .letter-l {
+      animation: L 8s linear infinite;
+      -moz-animation: L 8s linear infinite;
+      /* Firefox */
+      -webkit-animation: L 8s linear infinite;
+      /* Safari and Chrome */
+      -o-animation: L 8s linear infinite;
+      /* Opera */
+    }
+
+    @keyframes L {
+      0% {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+      }
+      16.6666666667% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+      }
+      33.3333333334% {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+      }
+      50% {
+        -webkit-filter: blur(8px);
+        filter: blur(8px);
+      }
+      66.6666666668% {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+      }
+      83.3333333335% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+      }
+      100% {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+      }
+    }
+
+    .letter-u {
+      animation: U 8s linear infinite;
+      -moz-animation: U 8s linear infinite;
+      /* Firefox */
+      -webkit-animation: U 8s linear infinite;
+      /* Safari and Chrome */
+      -o-animation: U 8s linear infinite;
+      /* Opera */
+    }
+
+    @keyframes U {
+      0% {
+        -webkit-filter: blur(8px);
+        filter: blur(8px);
+      }
+      16.6666666667% {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+      }
+      33.3333333334% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+      }
+      50% {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+      }
+      66.6666666668% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+      }
+      83.3333333335% {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+      }
+      100% {
+        -webkit-filter: blur(8px);
+        filter: blur(8px);
+      }
+    }
+
+    .letter-r {
+      animation: R 8s linear infinite;
+      -moz-animation: R 8s linear infinite;
+      /* Firefox */
+      -webkit-animation: R 8s linear infinite;
+      /* Safari and Chrome */
+      -o-animation: R 8s linear infinite;
+      /* Opera */
+    }
+
+    @keyframes R {
+      0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+      }
+      16.6666666667% {
+        -webkit-filter: blur(8px);
+        filter: blur(8px);
+      }
+      33.3333333334% {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+      }
+      50% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+      }
+      66.6666666668% {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+      }
+      83.3333333335% {
+        -webkit-filter: blur(8px);
+        filter: blur(8px);
+      }
+      100% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+      }
+    }

@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS reset */
+
+
+.bj_right P { width:135px; font:12px/60px ""; color:#999999;}
+.bj_right P a{ color:#37b5f9;}
+.bj_right > a{ width:99px; height:28px; padding:5px 35px 5px 35px;line-height:28px; margin-bottom:30px; border-radius:3px; }
+.bj_right .zhuce_qq{ border:1px solid #37b5f9; color:#37b5f9; background:url(/sucai/zc_03.jpg) no-repeat 10px 7px #fff;}
+.bj_right .zhuce_wb{ border:1px solid #f26d7e; color:#f26d7e; background:url(/sucai/zc_10.jpg) no-repeat 10px 7px #fff;}
+.bj_right .zhuce_wx{ border:1px solid #00c800; color:#00c800; background:url(/sucai/zc_15.jpg) no-repeat 10px 7px #fff;}
+
+
